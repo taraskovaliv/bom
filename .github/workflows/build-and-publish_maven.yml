@@ -4,8 +4,8 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build-and-version-update:
-    name: Build and Version update
+  build-and-publish:
+    name: Build, Version update, Release and Publish
     runs-on: ubuntu-latest
     concurrency: ci-${{ github.ref }}
     permissions:
