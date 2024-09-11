@@ -53,6 +53,7 @@
 
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <commons-io.version>2.16.1</commons-io.version>
+        <jakarta.mail.version>2.0.1</jakarta.mail.version>
 
         <spring-context.version>6.1.12</spring-context.version>
         <spring-webmvc.version>${spring-context.version}</spring-webmvc.version>
@@ -71,6 +72,10 @@
         <maven-remote-resources-plugin.version>3.2.0</maven-remote-resources-plugin.version>
 
         <shedlock.version>5.16.0</shedlock.version>
+        <caffeine.version>3.1.8</caffeine.version>
+        <jedis.version>5.1.5</jedis.version>
+        <playwright.version>1.46.0</playwright.version>
+        <sentry-spring-jakarta.version>8.0.0-alpha.4</sentry-spring-jakarta.version>
     </properties>
 
     <dependencies>
@@ -117,6 +122,11 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>${gson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>jakarta.mail</artifactId>
+            <version>${jakarta.mail.version}</version>
         </dependency>
 
         <dependency>
