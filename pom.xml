@@ -82,6 +82,9 @@
         <jsoup.version>1.18.1</jsoup.version>
         <geoip2.version>4.2.0</geoip2.version>
         <qr-code-with-logo.version>0.3.0</qr-code-with-logo.version>
+        <junit-jupiter-api.version>5.11.0</junit-jupiter-api.version>
+        <system-stubs-jupiter.version>2.1.6</system-stubs-jupiter.version>
+        <httpclient5.version>5.4-beta1</httpclient5.version>
     </properties>
 
     <dependencies>
@@ -180,6 +183,16 @@
             <groupId>net.javacrumbs.shedlock</groupId>
             <artifactId>shedlock-provider-jdbc-template</artifactId>
             <version>${shedlock.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.sentry</groupId>
+            <artifactId>sentry-spring-jakarta</artifactId>
+            <version>${sentry-spring-jakarta.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${jedis.version}</version>
         </dependency>
     </dependencies>
 
