@@ -85,6 +85,8 @@
         <junit-jupiter-api.version>5.11.0</junit-jupiter-api.version>
         <system-stubs-jupiter.version>2.1.6</system-stubs-jupiter.version>
         <httpclient5.version>5.4-beta1</httpclient5.version>
+        <jsitemapgenerator.version>4.5</jsitemapgenerator.version>
+        <okhttp.version>5.0.0-alpha.14</okhttp.version>
     </properties>
 
     <dependencies>
@@ -193,6 +195,17 @@
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
             <version>${jedis.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cz.jiripinkas</groupId>
+            <artifactId>jsitemapgenerator</artifactId>
+            <version>${jsitemapgenerator.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>${okhttp.version}</version>
         </dependency>
     </dependencies>
 
