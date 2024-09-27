@@ -87,6 +87,7 @@
         <httpclient5.version>5.4-beta1</httpclient5.version>
         <jsitemapgenerator.version>4.5</jsitemapgenerator.version>
         <okhttp.version>5.0.0-alpha.14</okhttp.version>
+        <slack.version>1.43.1</slack.version>
     </properties>
 
     <dependencies>
@@ -206,6 +207,17 @@
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
             <version>${okhttp.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.slack.api</groupId>
+            <artifactId>bolt</artifactId>
+            <version>${slack.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.slack.api</groupId>
+            <artifactId>bolt-servlet</artifactId>
+            <version>${slack.version}</version>
         </dependency>
     </dependencies>
 
