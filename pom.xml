@@ -89,7 +89,7 @@
         <jsitemapgenerator.version>4.5</jsitemapgenerator.version>
         <okhttp.version>5.0.0-alpha.14</okhttp.version>
         <slack.version>1.44.1</slack.version>
-        <jsoup.version>1.18.1</jsoup.version>
+        <s3.version>2.29.9</s3.version>
     </properties>
 
     <dependencies>
@@ -225,6 +225,11 @@
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>${jsoup.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
+            <version>${s3.version}</version>
         </dependency>
 
         <dependency>
