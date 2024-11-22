@@ -89,7 +89,7 @@
         <jsitemapgenerator.version>4.5</jsitemapgenerator.version>
         <okhttp.version>5.0.0-alpha.14</okhttp.version>
         <slack.version>1.44.2</slack.version>
-        <s3.version>2.29.18</s3.version>
+        <s3.version>2.29.19</s3.version>
     </properties>
 
     <dependencies>
