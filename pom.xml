@@ -75,7 +75,7 @@
         <caffeine.version>3.1.8</caffeine.version>
         <jedis.version>5.2.0</jedis.version>
         <playwright.version>1.46.0</playwright.version>
-        <selenium-java.version>4.26.0</selenium-java.version>
+        <selenium-java.version>4.27.0</selenium-java.version>
         <sentry-spring-jakarta.version>8.0.0-beta.3</sentry-spring-jakarta.version>
         <maven-remote-resources-plugin.version>3.2.0</maven-remote-resources-plugin.version>
         <opencsv.version>5.9</opencsv.version>
