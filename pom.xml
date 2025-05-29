@@ -59,7 +59,7 @@
         <spring-data-jpa.version>3.4.6</spring-data-jpa.version>
         <HikariCP.version>6.3.0</HikariCP.version>
         <jakarta.persistence-api.version>3.2.0</jakarta.persistence-api.version>
-        <postgresql.version>42.7.5</postgresql.version>
+        <postgresql.version>42.7.6</postgresql.version>
         <hibernate-core.version>6.6.16.Final</hibernate-core.version>
 
         <central-publishing.version>0.7.0</central-publishing.version>
