@@ -88,7 +88,7 @@
         <system-stubs-jupiter.version>2.1.7</system-stubs-jupiter.version>
         <httpclient5.version>5.4</httpclient5.version>
         <jsitemapgenerator.version>4.5</jsitemapgenerator.version>
-        <okhttp.version>5.0.0-alpha.14</okhttp.version>
+        <okhttp.version>5.0.0-alpha.16</okhttp.version>
         <slack.version>1.45.3</slack.version>
         <s3.version>2.31.57</s3.version>
     </properties>
