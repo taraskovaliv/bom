@@ -71,7 +71,7 @@
         <maven-remote-resources-plugin.version>3.2.0</maven-remote-resources-plugin.version>
 
         <ai-client.version>0.1.2</ai-client.version>
-        <shedlock.version>6.8.0</shedlock.version>
+        <shedlock.version>6.9.1</shedlock.version>
         <caffeine.version>3.1.8</caffeine.version>
         <jedis.version>6.0.0</jedis.version>
         <playwright.version>1.46.0</playwright.version>
