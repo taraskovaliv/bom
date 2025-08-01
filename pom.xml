@@ -7,7 +7,7 @@
     <groupId>dev.kovaliv</groupId>
     <artifactId>bom</artifactId>
     <name>Kovaliv BOM</name>
-    <version>0.0.37</version>
+    <version>0.0.39</version>
     <packaging>pom</packaging>
     <url>https://github.com/taraskovaliv/bom</url>
     <description>Bom file for my projects</description>
