@@ -6,7 +6,7 @@
 
     <groupId>dev.kovaliv</groupId>
     <artifactId>bom</artifactId>
-    <name>Kovaliv BOM project</name>
+    <name>Kovaliv BOM</name>
     <version>0.0.39</version>
     <packaging>pom</packaging>
     <url>https://github.com/taraskovaliv/bom</url>
@@ -63,7 +63,7 @@
         <postgresql.version>42.7.7</postgresql.version>
         <hibernate-core.version>6.6.16.Final</hibernate-core.version>
 
-        <central-publishing.version>0.8.0</central-publishing.version>
+        <central-publishing.version>0.7.0</central-publishing.version>
         <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
         <maven-gpg-plugin.version>3.2.7</maven-gpg-plugin.version>
@@ -72,17 +72,17 @@
         <maven-remote-resources-plugin.version>3.2.0</maven-remote-resources-plugin.version>
 
         <ai-client.version>0.1.2</ai-client.version>
-        <shedlock.version>6.9.1</shedlock.version>
+        <shedlock.version>6.8.0</shedlock.version>
         <caffeine.version>3.1.8</caffeine.version>
         <jedis.version>6.0.0</jedis.version>
         <playwright.version>1.46.0</playwright.version>
-        <selenium-java.version>4.34.0</selenium-java.version>
-        <sentry-spring-jakarta.version>8.18.0</sentry-spring-jakarta.version>
+        <selenium-java.version>4.33.0</selenium-java.version>
+        <sentry-spring-jakarta.version>8.13.1</sentry-spring-jakarta.version>
         <maven-remote-resources-plugin.version>3.2.0</maven-remote-resources-plugin.version>
         <opencsv.version>5.9</opencsv.version>
         <uap-java.version>1.6.1</uap-java.version>
         <chartjs.version>2.8.1</chartjs.version>
-        <jsoup.version>1.21.1</jsoup.version>
+        <jsoup.version>1.20.1</jsoup.version>
         <geoip2.version>4.2.0</geoip2.version>
         <qr-code-with-logo.version>0.3.0</qr-code-with-logo.version>
         <junit-jupiter-api.version>5.11.1</junit-jupiter-api.version>
@@ -91,7 +91,7 @@
         <jsitemapgenerator.version>4.5</jsitemapgenerator.version>
         <okhttp.version>5.0.0-alpha.16</okhttp.version>
         <slack.version>1.45.3</slack.version>
-        <s3.version>2.32.15</s3.version>
+        <s3.version>2.31.77</s3.version>
     </properties>
 
     <dependencies>
