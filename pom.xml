@@ -58,7 +58,7 @@
         <spring-context.version>6.2.9</spring-context.version>
         <spring-webmvc.version>${spring-context.version}</spring-webmvc.version>
         <spring-data-jpa.version>3.4.6</spring-data-jpa.version>
-        <HikariCP.version>6.3.0</HikariCP.version>
+        <HikariCP.version>7.0.1</HikariCP.version>
         <jakarta.persistence-api.version>3.2.0</jakarta.persistence-api.version>
         <postgresql.version>42.7.7</postgresql.version>
         <hibernate-core.version>6.6.16.Final</hibernate-core.version>
