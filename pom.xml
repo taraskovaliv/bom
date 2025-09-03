@@ -53,7 +53,7 @@
 
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <commons-io.version>2.20.0</commons-io.version>
-        <jakarta.mail.version>2.0.1</jakarta.mail.version>
+        <jakarta.mail.version>2.0.2</jakarta.mail.version>
 
         <spring-context.version>6.2.9</spring-context.version>
         <spring-webmvc.version>${spring-context.version}</spring-webmvc.version>
