@@ -61,7 +61,7 @@
         <HikariCP.version>6.3.0</HikariCP.version>
         <jakarta.persistence-api.version>3.2.0</jakarta.persistence-api.version>
         <postgresql.version>42.7.7</postgresql.version>
-        <hibernate-core.version>6.6.16.Final</hibernate-core.version>
+        <hibernate-core.version>7.1.4.Final</hibernate-core.version>
 
         <central-publishing.version>0.7.0</central-publishing.version>
         <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
